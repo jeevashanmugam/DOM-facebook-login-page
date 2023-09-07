@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.facebook-login-sec {
+    background-color: #F0F2F5;
+}
+
+.container {
+    width: 1380px;
+    /* height: 100vh; */
+    margin: auto;
+}
+
+.row-sec {
+    display: flex;
+}
+
+.col-sec {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+}
+
+.heading {
+    padding-left: 226px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-text {
+    padding-bottom: 100px;
+    /* width: 50%;
+    margin: auto; */
+}
+
+.heading h1 {
+    color: #0777E9;
+    font-size: 50px;
+    padding-bottom: 12px;
+}
+
+.heading p {
+    font-size: 24px;
+
+}
+
+.form-sec {
+    width: 60%;
+    padding: 20px;
+    /* margin-top: 100px; */
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+input,
+.submit-btn {
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+    border: 1px solid #00000087;
+}
+
+.submit-btn {
+    border: none;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #0777E9;
+}
+
+.submit-btn:hover {
+    background-color: #166fe5;
+}
+
+.forger-pass {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #0777E9;
+}
+
+.forger-pass:hover {
+    text-decoration: underline;
+}
+
+.line {
+    border-top: 2px solid #808080;
+    margin: 26px 0;
+}
+
+.create-new {
+    width: 65%;
+    margin: auto;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #008000bf;
+    transition: .5s;
+}
+
+.create-new:hover {
+    transition: .5s;
+    background-color: #008000eb;
+}
